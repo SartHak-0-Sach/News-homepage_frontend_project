@@ -294,12 +294,19 @@ body {
   margin-bottom: 1rem;
 }
 
-/* attribution */
-
+/* Footer */
 .attribution {
-  position: fixed;
-  bottom: 0;
-  margin-bottom: 1rem;
+    position: absolute;
+    bottom: .8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    text-align: center;
+    color: black;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 /* media query */
